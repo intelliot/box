@@ -1,0 +1,2 @@
+PODS_BOX_IOS_SHARE_SDK_FRAMEWORK_SEARCH_PATHS = $(inherited) "$(PODS_ROOT)/box-ios-share-sdk"
+PODS_BOX_IOS_SHARE_SDK_OTHER_LDFLAGS = -framework "BoxShareSDK"

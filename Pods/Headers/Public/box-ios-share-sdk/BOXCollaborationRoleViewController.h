@@ -1,0 +1,1 @@
+../../../box-ios-share-sdk/BoxShareSDK.framework/Versions/A/Headers/BOXCollaborationRoleViewController.h

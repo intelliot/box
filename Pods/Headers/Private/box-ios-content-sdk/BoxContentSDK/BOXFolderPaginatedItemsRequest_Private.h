@@ -1,0 +1,1 @@
+../../../../box-ios-content-sdk/BoxContentSDK/BoxContentSDK/Requests/BOXFolderPaginatedItemsRequest_Private.h

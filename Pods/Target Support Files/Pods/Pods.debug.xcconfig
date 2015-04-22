@@ -1,0 +1,7 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$(PODS_ROOT)/box-ios-share-sdk"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/box-ios-content-sdk" "${PODS_ROOT}/Headers/Public/box-ios-content-sdk/BoxContentSDK" "${PODS_ROOT}/Headers/Public/box-ios-share-sdk"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/box-ios-content-sdk" -isystem "${PODS_ROOT}/Headers/Public/box-ios-content-sdk/BoxContentSDK" -isystem "${PODS_ROOT}/Headers/Public/box-ios-share-sdk"
+OTHER_LDFLAGS = $(inherited) -ObjC -all_load -l"Pods-box-ios-content-sdk" -l"Pods-box-ios-share-sdk" -framework "AssetsLibrary" -framework "BoxShareSDK" -framework "QuartzCore" -framework "Security"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods

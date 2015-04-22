@@ -1,0 +1,19 @@
+PODS:
+  - box-ios-content-sdk (1.0.0):
+    - box-ios-content-sdk/logger (= 1.0.0)
+    - box-ios-content-sdk/no-arc (= 1.0.0)
+  - box-ios-content-sdk/logger (1.0.0)
+  - box-ios-content-sdk/no-arc (1.0.0):
+    - box-ios-content-sdk/logger
+  - box-ios-share-sdk (1.0.0):
+    - box-ios-content-sdk
+
+DEPENDENCIES:
+  - box-ios-content-sdk
+  - box-ios-share-sdk
+
+SPEC CHECKSUMS:
+  box-ios-content-sdk: 7be737de0b0d608623cc89c2af49660b2b724422
+  box-ios-share-sdk: 503dbff3d115cb04efb76d86f7ac9174c3d59309
+
+COCOAPODS: 0.36.3

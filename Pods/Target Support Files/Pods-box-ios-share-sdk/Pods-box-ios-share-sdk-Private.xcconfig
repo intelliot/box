@@ -1,0 +1,7 @@
+#include "Pods-box-ios-share-sdk.xcconfig"
+FRAMEWORK_SEARCH_PATHS = ${PODS_BOX_IOS_SHARE_SDK_FRAMEWORK_SEARCH_PATHS}
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/box-ios-share-sdk" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/box-ios-content-sdk" "${PODS_ROOT}/Headers/Public/box-ios-content-sdk/BoxContentSDK" "${PODS_ROOT}/Headers/Public/box-ios-share-sdk"
+OTHER_LDFLAGS = ${PODS_BOX_IOS_SHARE_SDK_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES
