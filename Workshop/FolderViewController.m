@@ -32,13 +32,13 @@
     
     // STEP_TWO
     
-//    BOXFolderItemsRequest *request = [[BOXContentClient defaultClient] folderItemsRequestWithID:self.folderID];
-//    [request performRequestWithCompletion:^(NSArray *items, NSError *error) {
-//        if (error == nil) {
-//            self.items = items;
-//            [self.tableView reloadData];
-//        }
-//    }];
+    BOXFolderItemsRequest *request = [[BOXContentClient defaultClient] folderItemsRequestWithID:self.folderID];
+    [request performRequestWithCompletion:^(NSArray *items, NSError *error) {
+        if (error == nil) {
+            self.items = items;
+            [self.tableView reloadData];
+        }
+    }];
 }
 
 #pragma mark - Table view data source

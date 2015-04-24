@@ -10,14 +10,14 @@
 	<string>Workshop</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>60DDAC1E9EDEA8DD2541D03D4F6B58F914C23276</key>
+		<key>E52CAE82E561BA451468DD92832A24E4184D7242</key>
 		<string>gitenterprise.inside-box.net:jpang/workshop.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Workshop.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>60DDAC1E9EDEA8DD2541D03D4F6B58F914C23276</key>
+		<key>E52CAE82E561BA451468DD92832A24E4184D7242</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>60DDAC1E9EDEA8DD2541D03D4F6B58F914C23276</string>
+	<string>E52CAE82E561BA451468DD92832A24E4184D7242</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>60DDAC1E9EDEA8DD2541D03D4F6B58F914C23276</string>
+			<string>E52CAE82E561BA451468DD92832A24E4184D7242</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Workshop</string>
 		</dict>

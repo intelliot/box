@@ -43,22 +43,22 @@
     
     // STEP_THREE
 
-//    BOXFileDownloadRequest *request = [[BOXContentClient defaultClient] fileDownloadRequestWithID:self.fileID toLocalFilePath:path];
-//    [request performRequestWithProgress:^(long long totalBytesTransferred, long long totalBytesExpectedToTransfer) {
-//        //
-//    } completion:^(NSError *error) {
-//        if (error == nil) {
-//            self.imageView.image = [self imageFromPath:path];
-//        }
-//    }];
+    BOXFileDownloadRequest *request = [[BOXContentClient defaultClient] fileDownloadRequestWithID:self.fileID toLocalFilePath:path];
+    [request performRequestWithProgress:^(long long totalBytesTransferred, long long totalBytesExpectedToTransfer) {
+        //
+    } completion:^(NSError *error) {
+        if (error == nil) {
+            self.imageView.image = [self imageFromPath:path];
+        }
+    }];
 }
 
 - (void)share
 {
     // STEP_FOUR
     
-//    BOXSharedLinkViewController *viewController = [[BOXSharedLinkViewController alloc] initWithContentClient:[BOXContentClient defaultClient] fileID:self.fileID];
-//    [self.navigationController pushViewController:viewController animated:YES];
+    BOXSharedLinkViewController *viewController = [[BOXSharedLinkViewController alloc] initWithContentClient:[BOXContentClient defaultClient] fileID:self.fileID];
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 
 - (UIImage *)imageFromPath:(NSString *)path

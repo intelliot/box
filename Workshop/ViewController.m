@@ -24,12 +24,12 @@
 
     // STEP_ONE
     
-//    BOXContentClient *contentClient = [BOXContentClient defaultClient];
-//    [contentClient authenticateWithCompletionBlock:^(BOXUser *user, NSError *error) {
-//        if (error == nil) {
-//            [self displayFolderViewController];
-//        }
-//    }];
+    BOXContentClient *contentClient = [BOXContentClient defaultClient];
+    [contentClient authenticateWithCompletionBlock:^(BOXUser *user, NSError *error) {
+        if (error == nil) {
+            [self displayFolderViewController];
+        }
+    }];
 }
 
 - (void)displayFolderViewController
